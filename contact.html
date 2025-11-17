@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Solar Crowns</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 100 100" width="50" height="50">
+                    <!-- Sun rays -->
+                    <g class="sun-rays">
+                        <line x1="50" y1="5" x2="50" y2="15" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="75" y1="12" x2="69" y2="20" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="88" y1="25" x2="80" y2="31" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="95" y1="50" x2="85" y2="50" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="88" y1="75" x2="80" y2="69" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="75" y1="88" x2="69" y2="80" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="50" y1="95" x2="50" y2="85" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="25" y1="88" x2="31" y2="80" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="12" y1="75" x2="20" y2="69" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="5" y1="50" x2="15" y2="50" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="12" y1="25" x2="20" y2="31" stroke="#D4AF37" stroke-width="2"/>
+                        <line x1="25" y1="12" x2="31" y2="20" stroke="#D4AF37" stroke-width="2"/>
+                    </g>
+                    <!-- Sun circle -->
+                    <circle cx="50" cy="50" r="20" fill="#D4AF37"/>
+                    <!-- Crown -->
+                    <path d="M 35 45 L 40 35 L 45 45 L 50 30 L 55 45 L 60 35 L 65 45 L 65 55 L 35 55 Z"
+                          fill="#8B1538" stroke="#D4AF37" stroke-width="1.5"/>
+                    <circle cx="40" cy="35" r="2" fill="#D4AF37"/>
+                    <circle cx="50" cy="30" r="2.5" fill="#D4AF37"/>
+                    <circle cx="60" cy="35" r="2" fill="#D4AF37"/>
+                </svg>
+                <span class="logo-text">Solar Crowns</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Let's Build Something Amazing</h1>
+            <p>Get in touch to discuss your project and receive a personalized quote</p>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p class="contact-intro">
+                        Ready to elevate your business with a professional website?
+                        I'd love to hear about your project and discuss how Solar Crowns
+                        can help you achieve your online goals.
+                    </p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-details">
+                                <h3>Email</h3>
+                                <a href="mailto:solar.crownsllc@gmail.com" class="email-link">
+                                    solar.crownsllc@gmail.com
+                                </a>
+                                <p>Response time: Within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">💼</div>
+                            <div class="method-details">
+                                <h3>Business Inquiries</h3>
+                                <p>For quotes, project discussions, and partnership opportunities</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">🕐</div>
+                            <div class="method-details">
+                                <h3>Availability</h3>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM EST</p>
+                                <p>Weekend: By appointment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-contact-cta">
+                        <h3>Prefer Direct Email?</h3>
+                        <p>Click the button below to open your email client</p>
+                        <a href="mailto:solar.crownsllc@gmail.com?subject=Website Inquiry from SolarCrowns.com&body=Hello Solar Crowns,%0D%0A%0D%0AI'm interested in discussing a website project.%0D%0A%0D%0AProject Type: [1 Page / 3 Pages / 5 Pages]%0D%0ABusiness Name: %0D%0ABusiness Industry: %0D%0ASpecial Requirements: %0D%0A%0D%0AThank you!"
+                           class="email-button">
+                            Send Email Now
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="package">Interested Package</label>
+                            <select id="package" name="package">
+                                <option value="">Select a package</option>
+                                <option value="starter">Starter (1 Page) - $499-$799</option>
+                                <option value="professional">Professional (3 Pages) - $1,299-$1,999</option>
+                                <option value="enterprise">Enterprise (5 Pages) - $2,499-$3,999</option>
+                                <option value="custom">Custom Project</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">When do you need this?</option>
+                                <option value="urgent">ASAP (1-2 weeks)</option>
+                                <option value="soon">Soon (2-4 weeks)</option>
+                                <option value="flexible">Flexible (1-2 months)</option>
+                                <option value="planning">Just planning</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="6" required
+                                      placeholder="Tell us about your business and what you're looking for in a website..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                        <p class="form-note">* Required fields</p>
+                    </form>
+
+                    <div id="formSuccess" class="form-message success" style="display: none;">
+                        <h3>Thank you for your message!</h3>
+                        <p>We'll get back to you within 24 hours at the email address you provided.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-reminder">
+                <h3>Not Sure Which Package is Right for You?</h3>
+                <p>
+                    No problem! Reach out and we'll discuss your specific needs and recommend
+                    the best solution for your business. All packages are customizable, and
+                    we're happy to create a tailored proposal.
+                </p>
+                <a href="index.html#pricing" class="link-button">View Pricing Details</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Solar Crowns LLC. All rights reserved.</p>
+            <p>Crafted with precision and powered by innovation</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
